@@ -1,0 +1,16 @@
+var DATABASE = `
+SORRY, I COMMIT TO MASTER
+  PERS : Patrick Lee Scott
+  SRCE : HackerNoon
+  LINK : https://hackernoon.com/i-have-a-confession-to-make-i-commit-to-master-6a804f  34beb?ref=hackernoon.com&utm_source=pocket_shared
+  TYPE : article
+  TAGS : dev
+  QOTE : 'Luckily for you I’ve put in months of trial and error, and now I’d like to present to you, the process and techniques I use day-to-day to confidently commit to master.'
+
+SUSTAINABLE WEB MANIFESTO
+  SRCE : Sustainable Web Manifesto
+  LINK : https://www.sustainablewebmanifesto.com
+  TYPE : article
+  FILE : sustainable-web-manifesto.jpg
+  TAGS : dev, valeurs
+`
