@@ -1,51 +1,47 @@
-function Lightbox()
-{
-  this.container = null;
-  this.img = null;
+function Lightbox() {
+    this.container = null;
+    this.img = null;
 
-  this.install = function(container, prefix)
-  {
-    this.container = container;
-    
-    let back = document.createElement('div');
-    back.className = prefix + '-back';
-    this.addEvent(back, 'click', function(){ lightbox.close(); });
-    this.container.appendChild(back);
+    this.install = function (container, prefix) {
+        this.container = container;
 
-    this.img = document.createElement('img');
-    this.img.className = prefix + '-img';
-    this.addEvent(this.img, 'click', function(){ lightbox.close(); });
-    this.container.appendChild(this.img);
-  }
+        let back = document.createElement("div");
+        back.className = prefix + "-back";
+        this.addEvent(back, "click", function () {
+            lightbox.close();
+        });
+        this.container.appendChild(back);
 
-  this.load = function(file)
-  {
-    this.img.src = file;
-  	this.container.style.display = 'block';
-  }
+        this.img = document.createElement("img");
+        this.img.className = prefix + "-img";
+        this.addEvent(this.img, "click", function () {
+            lightbox.close();
+        });
+        this.container.appendChild(this.img);
+    };
 
-  this.close = function()
-  {
-  	if (this.container.style.display != 'none')
-  	{
-  		this.container.style.display = 'none';
-  	}
-  }
+    this.load = function (file) {
+        this.img.src = file;
+        this.container.style.display = "block";
+    };
 
-  this.handle = function(element, file)
-  {
-    this.addEvent(element, 'click', function(){ lightbox.load(file); });
-  }
+    this.close = function () {
+        if (this.container.style.display != "none") {
+            this.container.style.display = "none";
+        }
+    };
 
-  this.addEvent = function(element, evnt, funct)
-  {
-    if (element.attachEvent)
-    {
-      return element.attachEvent('on'+evnt, funct);
-    }
-    else
-    {
-      return element.addEventListener(evnt, funct, false);
-    }
-  }
+    this.handle = function (element, file) {
+        this.addEvent(element, "click", function () {
+            lightbox.load(file);
+        });
+    };
+
+    this.addEvent = function (element, evnt, funct) {
+        if (element.attachEvent) {
+            return element.attachEvent("on" + evnt, funct);
+        } else {
+            return element.addEventListener(evnt, funct, false);
+        }
+    };
 }
