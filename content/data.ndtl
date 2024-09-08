@@ -1,6 +1,6 @@
 var DATABASE = `
 SORRY, I COMMIT TO MASTER
-    PERS : Patrick Lee Scott
+    AUTH : Patrick Lee Scott
     SRCE : HackerNoon
     LINK : https://hackernoon.com/i-have-a-confession-to-make-i-commit-to-master-6a804f  34beb?ref=hackernoon.com&utm_source=pocket_shared
     TYPE : article
@@ -15,20 +15,20 @@ SUSTAINABLE WEB MANIFESTO
     TAGS : dev, valeurs
 
 GOLF GAME
-    PERS : Loot Bndt
+    AUTH : Loot Bndt
     FILE : inspiration-golf-game.jpg
     TAGS : inspiration, jeu
     TYPE : image
 
 THE DESIGN CHAPEL
-    PERS : The Design Chapel
+    AUTH : The Design Chapel
     LINK : https://www.thedesignchapel.com
     TYPE : image
     FILE : inspiration-design-chapel.jpg
     TAGS : inspiration, web
 
 THE DESIGN CHAPEL PROJECTS
-    PERS : The Design Chapel
+    AUTH : The Design Chapel
     LINK : https://www.thedesignchapel.com
     TYPE : image
     FILE : inspiration-design-chapel-2.jpg
@@ -45,19 +45,19 @@ MINIMALISTIC MOBILE WEBSITE
     TAGS : inspiration, web
 
 EXPLORATION GAME
-    PERS : Loot Bndt
+    AUTH : Loot Bndt
     FILE : inspiration-exploration-game.png
     TAGS : inspiration, jeu
     TYPE : image
 
 ADVENTURE GAME
-    PERS : Loot Bndt
+    AUTH : Loot Bndt
     FILE : inspiration-adventure-game.jpg
     TAGS : inspiration, jeu
     TYPE : image
 
 ADVENTURE GAME 2
-    PERS : Loot Bndt
+    AUTH : Loot Bndt
     FILE : inspiration-adventure-game-2.jpg
     TAGS : inspiration, jeu
     TYPE : image
@@ -68,7 +68,7 @@ FOOTER MENU
     TAGS : inspiration, web
 
 EXPLORATION GAME ZOOM
-    PERS : Loot Bndt
+    AUTH : Loot Bndt
     FILE : inspiration-exploration-game-zoom.jpg
     TAGS : inspiration, jeu
     TYPE : image
