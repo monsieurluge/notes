@@ -268,18 +268,6 @@ function Grid() {
                 }
             }
 
-            // IMAGE - for non-image-type-article
-            if (
-                SETTINGS.SHOWIMAG &&
-                !main.util.isType(value.TYPE, "image") &&
-                main.util.isDefined(value.FILE) &&
-                main.util.isImage(value.FILE)
-            ) {
-                article += `<div class="image">`;
-                article += `<img class="article-img" src="content/media/${value.FILE}" onclick="lightbox.load('content/media/${value.FILE}')">`;
-                article += `</div>`;
-            }
-
             // FILE
             if (SETTINGS.SHOWFILE && main.util.isDefined(value.FILE)) {
                 if (main.util.isObject(value.FILE)) {
@@ -298,6 +286,18 @@ function Grid() {
                         "article-file",
                     );
                 }
+            }
+
+            // IMAGE - for non-image-type-article
+            if (
+                SETTINGS.SHOWIMAG &&
+                !main.util.isType(value.TYPE, "image") &&
+                main.util.isDefined(value.FILE) &&
+                main.util.isImage(value.FILE)
+            ) {
+                article += `<div class="image">`;
+                article += `<img class="article-img" src="content/media/${value.FILE}" onclick="lightbox.load('content/media/${value.FILE}')">`;
+                article += `</div>`;
             }
 
             // LOWER CONTENT END

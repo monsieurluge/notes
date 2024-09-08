@@ -375,6 +375,10 @@ article:hover .article-containerupper-image {
     display: none;
 }
 
+.article-containerlower .image {
+    margin-bottom: calc(-1 * var(--size-grid-gutter));
+}
+
 article:hover .article-containerlower-image {
     display: inline-block;
 }
@@ -390,7 +394,6 @@ article:hover .article-containerlower-image {
 .article-containerbelow:empty {
     display: none;
 }
-
 
 .article-image {
     position: absolute;
