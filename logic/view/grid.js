@@ -112,7 +112,7 @@ function Grid() {
 
             // TITLE
             if (SETTINGS.SHOWTITLE) {
-                article += `<header class="article-title">${key.to_properCase()}</header>`;
+                article += `<header class="article-title">${SETTINGS.PASCALCASETITLE ? key.to_properCase() : key}</header>`;
             }
 
             // LINK END
