@@ -273,8 +273,7 @@ nav::-webkit-scrollbar {
 }
 
 .nav-tag:hover .nav-taglabel {
-    background-color: var(--color-itemascent);
-    color: var(--color-menubg);
+    color: var(--color-itemascent);
 }
 
 .nav-tag:hover .nav-tagcount {
