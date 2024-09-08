@@ -1,4 +1,4 @@
-function Wrap() {
+function Wrap({ indentLevel }) {
     this.start = function (data) {
         this.commaSplit = function (data) {
             if (data !== undefined) {
@@ -22,7 +22,7 @@ function Wrap() {
             return data;
         };
 
-        let database = new Indental(data).parse();
+        let database = new Indental(data, indentLevel).parse();
         let keys = Object.keys(database);
         for (let i = 0; i < keys.length; i++) {
             let entry = database[keys[i]];

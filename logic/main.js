@@ -17,7 +17,7 @@ function Main() {
         seer.note("load all js files");
 
         this.util = new Util();
-        this.wrap = new Wrap();
+        this.wrap = new Wrap({ indentLevel: 4 });
         this.grid = new Grid();
         this.grid.install(
             document.querySelector("main"),
