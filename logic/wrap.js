@@ -26,15 +26,12 @@ function Wrap({ indentLevel }) {
         let keys = Object.keys(database);
         for (let i = 0; i < keys.length; i++) {
             let entry = database[keys[i]];
-
             entry.AUTH = this.commaSplit(entry.AUTH);
             entry.TAGS = this.commaSplit(entry.TAGS);
             entry.TYPE = this.commaSplit(entry.TYPE);
             entry.PROJ = this.commaSplit(entry.PROJ);
-
             entry.LINK = this.objectSplit(entry.LINK);
             entry.FILE = this.objectSplit(entry.FILE);
-
             database[keys[i]].DIID = i;
         }
 

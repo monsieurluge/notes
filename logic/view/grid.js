@@ -96,7 +96,7 @@ function Grid() {
             }
 
             // LINK START
-            if (SETTINGS.SHOWLINK && !main.util.isObject(value.LINK)) {
+            if (!main.util.isObject(value.LINK)) {
                 // If this item has only one link then make the whole title the link
                 article += `<a class="article-link" href="${String(value.LINK)}" id="${idUrl}">`;
             }
