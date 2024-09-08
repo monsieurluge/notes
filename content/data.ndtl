@@ -1,16 +1,90 @@
 var DATABASE = `
 SORRY, I COMMIT TO MASTER
-  PERS : Patrick Lee Scott
-  SRCE : HackerNoon
-  LINK : https://hackernoon.com/i-have-a-confession-to-make-i-commit-to-master-6a804f  34beb?ref=hackernoon.com&utm_source=pocket_shared
-  TYPE : article
-  TAGS : dev
-  QOTE : 'Luckily for you I’ve put in months of trial and error, and now I’d like to present to you, the process and techniques I use day-to-day to confidently commit to master.'
+    PERS : Patrick Lee Scott
+    SRCE : HackerNoon
+    LINK : https://hackernoon.com/i-have-a-confession-to-make-i-commit-to-master-6a804f  34beb?ref=hackernoon.com&utm_source=pocket_shared
+    TYPE : article
+    TAGS : dev
+    QOTE : 'Luckily for you I’ve put in months of trial and error, and now I’d like to present to you, the process and techniques I use day-to-day to confidently commit to master.'
 
 SUSTAINABLE WEB MANIFESTO
-  SRCE : Sustainable Web Manifesto
-  LINK : https://www.sustainablewebmanifesto.com
-  TYPE : article
-  FILE : sustainable-web-manifesto.jpg
-  TAGS : dev, valeurs
+    SRCE : Sustainable Web Manifesto
+    LINK : https://www.sustainablewebmanifesto.com
+    TYPE : article
+    FILE : sustainable-web-manifesto.jpg
+    TAGS : dev, valeurs
+
+GOLF GAME
+    PERS : Loot Bndt
+    FILE : inspiration-golf-game.jpg
+    TAGS : inspiration, jeu
+    TYPE : image
+
+THE DESIGN CHAPEL
+    PERS : The Design Chapel
+    LINK : https://www.thedesignchapel.com
+    TYPE : image
+    FILE : inspiration-design-chapel.jpg
+    TAGS : inspiration, web
+
+THE DESIGN CHAPEL PROJECTS
+    PERS : The Design Chapel
+    LINK : https://www.thedesignchapel.com
+    TYPE : image
+    FILE : inspiration-design-chapel-2.jpg
+    TAGS : inspiration, web
+
+HORIZONTAL WEBSITE
+    TYPE : image
+    FILE : inspiration-horizontal-website.jpg
+    TAGS : inspiration, web
+
+MINIMALISTIC MOBILE WEBSITE
+    TYPE : image
+    FILE : inspiration-minimalistic-mobile-website.jpg
+    TAGS : inspiration, web
+
+EXPLORATION GAME
+    PERS : Loot Bndt
+    FILE : inspiration-exploration-game.png
+    TAGS : inspiration, jeu
+    TYPE : image
+
+ADVENTURE GAME
+    PERS : Loot Bndt
+    FILE : inspiration-adventure-game.jpg
+    TAGS : inspiration, jeu
+    TYPE : image
+
+ADVENTURE GAME 2
+    PERS : Loot Bndt
+    FILE : inspiration-adventure-game-2.jpg
+    TAGS : inspiration, jeu
+    TYPE : image
+
+FOOTER MENU
+    TYPE : image
+    FILE : inspiration-footer-menu.jpg
+    TAGS : inspiration, web
+
+EXPLORATION GAME ZOOM
+    PERS : Loot Bndt
+    FILE : inspiration-exploration-game-zoom.jpg
+    TAGS : inspiration, jeu
+    TYPE : image
+
+TILED WEBSITE
+    TYPE : image
+    FILE : inspiration-tiled-website.jpg
+    TAGS : inspiration, web
+
+VERTICAL MENU DARK
+    TYPE : image
+    FILE : inspiration-vertical-menu.jpg
+    TAGS : inspiration, web
+
+GARDEN PATH
+    FILE : inspiration-garden-path.jpg
+    TAGS : inspiration
+    TYPE : image
 `
