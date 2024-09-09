@@ -1,5 +1,7 @@
 function Wrap({ indentLevel }) {
     this.start = function (data) {
+        console.log('wrap - start');
+
         this.commaSplit = function (data) {
             if (data !== undefined) {
                 var result = data.split(",");
@@ -22,6 +24,8 @@ function Wrap({ indentLevel }) {
             return data;
         };
 
+        console.log('wrap - indental indent level=', indentLevel);
+
         let database = new Indental(data, indentLevel).parse();
         let keys = Object.keys(database);
         for (let i = 0; i < keys.length; i++) {
@@ -32,6 +36,7 @@ function Wrap({ indentLevel }) {
             entry.PROJ = this.commaSplit(entry.PROJ);
             entry.LINK = this.objectSplit(entry.LINK);
             entry.FILE = this.objectSplit(entry.FILE);
+            console.log('wrap - entry=', entry);
             database[keys[i]].DIID = i;
         }
 
