@@ -37,7 +37,6 @@ function Main() {
     };
 
     this.start = function () {
-        console.log('main - start with DATABASE=', DATABASE);
         this.articles = this.wrap.start(DATABASE);
         seer.note("process db");
 

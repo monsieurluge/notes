@@ -65,7 +65,6 @@ function Grid() {
     };
 
     this.buildArticle = function (value, key) {
-        console.log('grid - build article', value, key);
         let itemClass = "article";
         if (SETTINGS.WIDEARTICLE) {
             if (main.util.isDefined(value.WIDE) && value.WIDE) {
