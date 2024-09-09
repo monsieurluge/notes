@@ -48,7 +48,6 @@ function Indental(data, indentLevel = 2) {
     }
 
     function liner(line) {
-        console.log('line:', line, 'indent:', line.search(/\S|$/))
         return {
             indent: line.search(/\S|$/),
             content: line.trim(),
