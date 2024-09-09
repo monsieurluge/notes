@@ -4,7 +4,7 @@ Sorry, I Commit to Master
     SRCE : HackerNoon
     LINK : https://hackernoon.com/i-have-a-confession-to-make-i-commit-to-master-6a804f  34beb?ref=hackernoon.com&utm_source=pocket_shared
     TYPE : article
-    TAGS : dev
+    TAGS : dev, node, git
     QOTE : 'Luckily for you I’ve put in months of trial and error, and now I’d like to present to you, the process and techniques I use day-to-day to confidently commit to master.'
 
 manifeste du web durable
@@ -61,6 +61,13 @@ jeu de survie
     FILE : inspiration-adventure-game-2.jpg
     TAGS : jeu
     TYPE : inspiration
+
+typescript online book
+    AUTH : Matt Pocock
+    LINK : https://www.totaltypescript.com/books/total-typescript-essentials
+    QOTE : 'Explore TypeScript's evolution from JavaScript, benefits, key tools, and setup steps. Enhance coding with TypeScript's powerful features.'
+    TYPE : article
+    TAGS : dev, typescript
 
 footer de site minimaliste
     TYPE : inspiration
