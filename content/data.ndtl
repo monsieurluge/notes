@@ -5,7 +5,7 @@ Sorry, I Commit to Master
     LINK : https://hackernoon.com/i-have-a-confession-to-make-i-commit-to-master-6a804f  34beb?ref=hackernoon.com&utm_source=pocket_shared
     TYPE : article
     TAGS : dev, node, git
-    QOTE : 'Luckily for you I’ve put in months of trial and error, and now I’d like to present to you, the process and techniques I use day-to-day to confidently commit to master.'
+    QOTE : Luckily for you I’ve put in months of trial and error, and now I’d like to present to you, the process and techniques I use day-to-day to confidently commit to master.
 
 manifeste du web durable
     SRCE : Sustainable Web Manifesto
@@ -14,11 +14,18 @@ manifeste du web durable
     FILE : sustainable-web-manifesto.jpg
     TAGS : dev, valeurs
 
-GOLF GAME
+Golf Game
     AUTH : Loot Bndt
     FILE : inspiration-golf-game.jpg
     TAGS : jeu
     TYPE : inspiration
+
+eloquent javascript
+    AUTH : Marijn Haverbeke
+    LINK : https://eloquentjavascript.net
+    TYPE : book
+    QOTE : This is a book about JavaScript, programming, and the wonders of the digital.
+    TAGS : dev, javascript
 
 The Design Chapel
     AUTH : The Design Chapel
@@ -26,6 +33,12 @@ The Design Chapel
     TYPE : inspiration
     FILE : inspiration-design-chapel.jpg
     TAGS : web
+
+tutoriel javascript moderne
+    LINK : https://fr.javascript.info
+    TYPE : article
+    TAGS : dev, javascript, tutoriel
+    QOTE : Des bases aux sujets avancés avec des explications simples mais détaillées.
 
 The Design Chapel - projets
     AUTH : The Design Chapel
@@ -44,6 +57,12 @@ site mobile minimaliste
     FILE : inspiration-minimalistic-mobile-website.jpg
     TAGS : web
 
+The 2 pillars of JavaScript
+    AUTH : Eric Elliott
+    LINK : https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
+    TYPE : article
+    TAGS : dev, javascript
+
 carte de jeu d'aventure
     AUTH : Loot Bndt
     FILE : inspiration-exploration-game.png
@@ -56,6 +75,21 @@ mini jeu d'aventure
     TAGS : jeu
     TYPE : inspiration
 
+OOP - 99 posts de blog
+    AUTH : Yegor Bugayenko
+    LINK : https://www.yegor256.com/tag/oop.html
+    TYPE : encyclopedia
+    TAGS : dev, oop
+    QOTE : Les avis de Yegor sont toujours très tranchés mais apportent matière à réfléchir et surtout ne sont pas dénués de sens.
+
+Fuji X Weekly
+    AUTH : Ritchie Roesch
+    LINK : https://fujixweekly.com
+    TYPE : inspiration
+    FILE : inspiration-fujixweekly.jpg
+    TAGS : photo
+    QOTE : Recettes de simulation de film, articles, etc.
+
 jeu de survie
     AUTH : Loot Bndt
     FILE : inspiration-adventure-game-2.jpg
@@ -65,7 +99,7 @@ jeu de survie
 typescript online book
     AUTH : Matt Pocock
     LINK : https://www.totaltypescript.com/books/total-typescript-essentials
-    QOTE : 'Explore TypeScript's evolution from JavaScript, benefits, key tools, and setup steps. Enhance coding with TypeScript's powerful features.'
+    QOTE : Explore TypeScript's evolution from JavaScript, benefits, key tools, and setup steps. Enhance coding with TypeScript's powerful features.
     TYPE : article
     TAGS : dev, typescript
 
