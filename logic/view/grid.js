@@ -98,7 +98,7 @@ function Grid() {
             // LINK START
             if (!main.util.isObject(value.LINK)) {
                 // If this item has only one link then make the whole title the link
-                article += `<a class="article-link" href="${String(value.LINK)}" id="${idUrl}">`;
+                article += `<a class="article-link" href="${String(value.LINK)}" target="${SETTINGS.LINKTONEWTAB ? '_blank' : '_self'}" id="${idUrl}">`;
             }
         }
 
@@ -119,7 +119,7 @@ function Grid() {
             if (SETTINGS.SHOWLINK && main.util.isDefined(value.LINK)) {
                 if (main.util.isObject(value.LINK)) {
                     for (let l = 0; l < value.LINK.length; l++) {
-                        article += `<a class="article-link" href="${String(value.LINK[l])}" id="${idUrl}">`;
+                        article += `<a class="article-link" href="${String(value.LINK[l])}" target="${SETTINGS.LINKTONEWTAB ? '_blank' : '_self'}" id="${idUrl}">`;
                         article += `<div class="article-linkcontainer"><div class="article-linkicon">${main.util.buildIcon("link")}</div><div class="article-linktitle">${main.util.extractRootDomain(value.LINK[l])}</div></div></a>`;
                     }
                 } else {
