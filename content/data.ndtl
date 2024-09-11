@@ -2,7 +2,7 @@ var DATABASE = `
 Sorry, I Commit to Master
     AUTH : Patrick Lee Scott
     SRCE : HackerNoon
-    LINK : https://hackernoon.com/i-have-a-confession-to-make-i-commit-to-master-6a804f  34beb?ref=hackernoon.com&utm_source=pocket_shared
+    LINK : https://hackernoon.com/i-have-a-confession-to-make-i-commit-to-master-6a804f334beb
     TYPE : article
     TAGS : dev, node, git
     QOTE : Luckily for you I’ve put in months of trial and error, and now I’d like to present to you, the process and techniques I use day-to-day to confidently commit to master.
@@ -38,7 +38,7 @@ tutoriel javascript moderne
     LINK : https://fr.javascript.info
     TYPE : article
     TAGS : dev, javascript, tutoriel
-    QOTE : Des bases aux sujets avancés avec des explications simples mais détaillées.
+    NOTE : Des bases aux sujets avancés avec des explications simples mais détaillées.
 
 The Design Chapel - projets
     AUTH : The Design Chapel
@@ -80,7 +80,7 @@ OOP - 99 posts de blog
     LINK : https://www.yegor256.com/tag/oop.html
     TYPE : encyclopedia
     TAGS : dev, oop
-    QOTE : Les avis de Yegor sont toujours très tranchés mais apportent matière à réfléchir et surtout ne sont pas dénués de sens.
+    NOTE : Les avis de Yegor sont toujours très tranchés mais apportent matière à réfléchir et surtout ne sont pas dénués de sens.
 
 Fuji X Weekly
     AUTH : Ritchie Roesch
@@ -88,7 +88,7 @@ Fuji X Weekly
     TYPE : inspiration
     FILE : inspiration-fujixweekly.jpg
     TAGS : photo
-    QOTE : Recettes de simulation de film, articles, etc.
+    NOTE : Recettes de simulation de film, articles, etc.
 
 jeu de survie
     AUTH : Loot Bndt
@@ -113,6 +113,12 @@ zoom ou étape de progression
     FILE : inspiration-exploration-game-zoom.jpg
     TAGS : jeu
     TYPE : inspiration
+
+VueJS cheat sheet
+    LINK : https://vue-cheatsheet.themeselection.com
+    TYPE : encyclopedia
+    TAGS : dev
+    NOTE : Un condensé de ce qu'il faut savoir sur Vue, Vue Router et Pinia.
 
 portfolio minimaliste
     TYPE : inspiration
