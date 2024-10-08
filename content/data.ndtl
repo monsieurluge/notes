@@ -134,4 +134,26 @@ idée de chemin de jardin
     FILE : inspiration-garden-path.jpg
     TAGS : irl
     TYPE : inspiration
+
+OOP by Alan Kay
+    AUTH : Alan Kay
+    TYPE : quote
+    TAGS : dev, oop
+    QOTE : OOP to me means only messaging, local retention and protection and hiding of state-process, and extreme late-binding of all things
+
+Self Hosted Apps
+    LINK : https://selfh.st/apps/
+    TYPE : encyclopedia
+    TAGS : dev
+
+FSD aka Feature-Sliced Design
+    LINK : https://feature-sliced.design
+    TYPE : article
+    TAGS : dev
+
+Naming Convention Project
+    LINK : https://namingconvention.org
+    TYPE : article
+    TAGS : dev
+    NOTE : Recueuil de conventions de nommage pour différents langages, dont VueJS et PHP.
 `
