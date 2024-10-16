@@ -62,6 +62,7 @@ The 2 pillars of JavaScript
     LINK : https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
     TYPE : article
     TAGS : dev, javascript
+    NOTE : Prototypal Inheritance & Functional Programming
 
 carte de jeu d'aventure
     AUTH : Loot Bndt
@@ -145,15 +146,45 @@ Self Hosted Apps
     LINK : https://selfh.st/apps/
     TYPE : encyclopedia
     TAGS : dev
+    NOTE : liste d'applications pouvant être auto-hébergées
 
 FSD aka Feature-Sliced Design
     LINK : https://feature-sliced.design
     TYPE : article
     TAGS : dev
+    NOTE : architectural methodology for frontend projects
 
 Naming Convention Project
     LINK : https://namingconvention.org
     TYPE : article
     TAGS : dev
     NOTE : Recueuil de conventions de nommage pour différents langages, dont VueJS et PHP.
+
+aménagement jardin
+    FILE : inspiration-jardin.jpg
+    TAGS : irl
+    TYPE : inspiration
+
+devenir plus efficace
+    FILE : organisation-perso.jpg
+    TAGS : irl
+    TYPE : inspiration
+
+UI contrastée
+    FILE : game-ui.png
+    TAGS : jeu
+    TYPE : inspiration
+
+cycles du TDD
+    FILE : tdd-cycles.jpg
+    LINK : https://journal.optivem.com/p/tdd-in-legacy-code-transformation
+    AUTH : Valentina Jemuović
+    TAGS : dev
+    TYPE : encyclopedia
+
+questions à poser en rétrospective
+    FILE : retrospective-questions.jpg
+    TAGS : agile
+    TYPE : inspiration
+    AUTH : Jean-Christophe Pagès
 `
